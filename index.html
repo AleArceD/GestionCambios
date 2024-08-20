@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swag Labs - Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .login-container img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .login-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #e2231a;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            background-color: #e2231a;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .login-container button:hover {
+            background-color: #d10f10;
+        }
+        .login-container .user-hint {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="swaglabs-logo.png" alt="Swag Labs Logo">
+        <h1>LOGIN</h1>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>LOGIN</button>
+        <div class="user-hint">
+            <p>Accepted usernames are:</p>
+            <p><strong>performance_glitch_user</strong></p>
+            <p>Password for all users: <strong>secret_sauce</strong></p>
+        </div>
+    </div>
+</body>
+</html>
